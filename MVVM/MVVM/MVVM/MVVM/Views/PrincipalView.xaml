@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVM.Views.PrincipalView">
+
+        <StackLayout Padding="20">
+
+        <Label Text="MVVM" 
+               FontSize="50"
+               HorizontalTextAlignment="Center"/>
+
+        <Entry x:Name="txtNome"
+               Placeholder="Insira seu nome"
+               FontSize="20"
+               Text="{Binding Nome}"/>
+
+        <Button x:Name="btnEntrar"
+                Text="Entrar"
+                FontSize="20"
+                Command="{Binding RetornoCommand}"/>
+
+        <Label x:Name="lblRetorno"
+               FontSize="30"
+               TextColor="blue"
+               Text="{Binding Retorno}"/>
+
+        <Button x:Name="btnCliente"
+                Text="Cliente"
+                FontSize="20"
+                Command="{Binding ClienteCommand}"/>
+
+
+    </StackLayout>
+
+</ContentPage>

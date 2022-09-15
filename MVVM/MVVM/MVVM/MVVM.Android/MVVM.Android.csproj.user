@@ -2,5 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <SelectedDevice>nexus_5_lollipop_5_0_-_api_21</SelectedDevice>
+    <ActiveDebugProfile>nexus_5_lollipop_5_0_-_api_21</ActiveDebugProfile>
+    <DefaultDevice>nexus_5_lollipop_5_0_-_api_21</DefaultDevice>
   </PropertyGroup>
 </Project>

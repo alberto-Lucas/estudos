@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVM.Views.VisClienteView">
+    <StackLayout Padding="20">
+
+        <Label Text="VisClientes" 
+               FontSize="50"
+               HorizontalTextAlignment="Center"/>
+
+        <Entry x:Name="txtNome"
+               Placeholder="Nome"
+               FontSize="20"
+               Text="{Binding Nome}"/>
+
+        <Entry x:Name="txtIdade"
+               Placeholder="Idade"
+               FontSize="20"
+               Text="{Binding Idade}"/>
+
+        <Entry x:Name="txtTelefone"
+               Placeholder="Telefone"
+               FontSize="20"
+               Text="{Binding Telefone}"/>
+    </StackLayout>
+</ContentPage>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVVM.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -8,9 +9,13 @@ namespace MVVM
     {
         public App()
         {
+
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //injeção de dependencia
+            DependencyService.Register<ViewModels.Services.IMessageService, Views.Services.MessageService>();
+
+            MainPage = new NavigationPage(new Views.PrincipalView());
         }
 
         protected override void OnStart()
