@@ -2149,11 +2149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM.Android\\MVVM.Android.csproj",
+      "projectUniqueName": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM.Android\\MVVM.Android.csproj",
       "projectName": "MVVM.Android",
-      "projectPath": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM.Android\\MVVM.Android.csproj",
+      "projectPath": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM.Android\\MVVM.Android.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM.Android\\obj\\",
+      "outputPath": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2176,8 +2176,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM\\MVVM.csproj": {
-              "projectPath": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM\\MVVM.csproj"
+            "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM.csproj": {
+              "projectPath": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM.csproj"
             }
           }
         }

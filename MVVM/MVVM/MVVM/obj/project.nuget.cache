@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eXvh5jXj9RVKIoSUEvhzlIq360APBp/p+cwonoJZat9Evmty8/MP1oXe9cUeAXOxyStQpFS4d5estAQaTkqAeQ==",
+  "dgSpecHash": "x6t04T05YwEA9iPkECHLnJLv50jiQDk4THC/1Gxedt5tgEZqopJTbM1kzy97NmqpoY+tKR9ujxEcfPiKH6IqfA==",
   "success": true,
-  "projectFilePath": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM\\MVVM.csproj",
+  "projectFilePath": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

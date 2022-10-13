@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CaraOuCoroa.ViewModel.DesafioView">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            
+            <StackLayout VerticalOptions="Start">
+                <Label Text="Cara ou Coroa"
+                       FontSize="50"
+                       TextColor="Orange"/>
+            </StackLayout>
+
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+                <Label
+                    x:Name="lblResult"
+                    Text="{Binding Resultado}"
+                    TextColor="{Binding Cor}"
+                    FontSize="40"/>
+
+                <Label
+                    Text="{Binding LadoMoeda}"
+                    TextColor="Black"
+                    FontSize="30"
+                    HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="Center" VerticalOptions="End">
+                <Button Text="Cara"
+                        Command="{Binding btnCara}"    
+                        CommandParameter="0"
+                        TextColor="Orange"
+                        BackgroundColor="Gray"
+                        WidthRequest="150"/>
+                
+                <Button Text="Coroa"
+                        Command="{Binding btnCoroa}"
+                        CommandParameter="1"
+                        TextColor="Orange"
+                        BackgroundColor="Gray"
+                        WidthRequest="150"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM\\MVVM.csproj": {}
+    "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM.csproj": {}
   },
   "projects": {
-    "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM\\MVVM.csproj": {
+    "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM\\MVVM.csproj",
+        "projectUniqueName": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM.csproj",
         "projectName": "MVVM",
-        "projectPath": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM\\MVVM.csproj",
+        "projectPath": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\MVVM\\obj\\",
+        "outputPath": "C:\\PMII\\estudos\\MVVM\\MVVM\\MVVM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,0 +1,16 @@
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\bin\Debug\netstandard2.0\CaraOuCoroa.deps.json
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\bin\Debug\netstandard2.0\CaraOuCoroa.dll
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\bin\Debug\netstandard2.0\ref\CaraOuCoroa.dll
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\bin\Debug\netstandard2.0\CaraOuCoroa.pdb
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\obj\Debug\netstandard2.0\CaraOuCoroa.csproj.AssemblyReference.cache
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\obj\Debug\netstandard2.0\CaraOuCoroa.GeneratedMSBuildEditorConfig.editorconfig
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\obj\Debug\netstandard2.0\CaraOuCoroa.AssemblyInfoInputs.cache
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\obj\Debug\netstandard2.0\CaraOuCoroa.AssemblyInfo.cs
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\obj\Debug\netstandard2.0\CaraOuCoroa.csproj.CoreCompileInputs.cache
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\obj\Debug\netstandard2.0\XamlC.stamp
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\obj\Debug\netstandard2.0\CaraOuCoroa.dll
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\obj\Debug\netstandard2.0\ref\CaraOuCoroa.dll
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\obj\Debug\netstandard2.0\CaraOuCoroa.pdb
+C:\PMII\estudos\CaraOuCoroa\CaraOuCoroa\CaraOuCoroa\obj\Debug\netstandard2.0\View\DesafioView.xaml.g.cs
