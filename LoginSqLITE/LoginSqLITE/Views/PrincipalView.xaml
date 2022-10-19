@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:model="clr-namespace:LoginSqLITE.Models" xmlns:local="clr-namespace:LoginSqLITE.ViewModels"
+             x:Class="LoginSqLITE.Views.PrincipalView">
+    <ContentPage.Content>
+        <StackLayout>
+            <RefreshView Command="{Binding CarregarUsuariosCommand}" IsRefreshing="{Binding IsRefreshing, Mode=TwoWay}" RefreshColor="Red">
+                <CollectionView x:Name="ItemsListView"
+                ItemsSource="{Binding UsuarioList, Mode=TwoWay}"
+                SelectionMode="None">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="10">
+                                <Label Text="{Binding ID}" 
+                                        LineBreakMode="NoWrap" 
+                                        FontSize="16" 
+                                       FontAttributes="Bold"/>
+                                <Label Text="{Binding Nome}" 
+                                        LineBreakMode="NoWrap" 
+                                        FontSize="16" />
+                                <Label Text="{Binding Email}" 
+                                        LineBreakMode="NoWrap"
+                                        FontSize="13" />
+                                <Label Text="{Binding Senha}" 
+                                        LineBreakMode="NoWrap" 
+                                        FontSize="13" />
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

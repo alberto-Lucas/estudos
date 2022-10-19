@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginSqLITE.Views.UsuarioView">
+    <ScrollView>
+        <StackLayout Padding="20">
+
+            <Label x:Name="lblId" Text="ID Usuario" />
+            <Entry x:Name="txtId" Text="{Binding Id}" IsEnabled="False"/>
+
+            <Label x:Name="lblNome" Text="Nome"/>
+            <Entry x:Name="txtNome" Text="{Binding Nome}"/>
+
+            <Label x:Name="lblEmail" Text="Email"/>
+            <Entry x:Name="txtEmail" Text="{Binding Email}"/>
+
+            <Label x:Name="lblSenha" Text="Senha"/>
+            <Entry x:Name="txtSenha" Text="{Binding Senha}"/>
+
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                <Button x:Name="btnAtualizar" Text="Atualizar" HorizontalOptions="FillAndExpand" Command="{Binding InserirCommand}"/>
+                <Button x:Name="btnDeletar" Text="Deletar" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+
+            <ListView x:Name="TaskList" ItemsSource="{Binding UsuarioList, Mode=TwoWay}" IsVisible="True"
+                      SelectedItem="{Binding SelectedTask, Mode=TwoWay}"
+                      HasUnevenRows="True" BackgroundColor="Transparent" Margin="10"
+                      SeparatorColor="Red" SelectionMode="Single">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" Margin="1">
+                                <Label Text="{Binding ID}"></Label>
+                                <Label Text="{Binding Nome}"></Label>
+                                <Label Text="{Binding Email}"></Label>
+                                <Label Text="{Binding Senha}"></Label>
+                            </StackLayout>
+                        </ViewCell>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+     </ScrollView>
+</ContentPage>
