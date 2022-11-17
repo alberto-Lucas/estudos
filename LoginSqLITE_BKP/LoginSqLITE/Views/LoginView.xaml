@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginSqLITE.Views.LoginView"
+             BackgroundColor="#2D2D30"
+             NavigationPage.HasNavigationBar="False"> <!--Ocultar o barra de titulos-->
+    <ContentPage.Content>
+        <StackLayout Padding="20" VerticalOptions="Center">
+
+            <Frame CornerRadius="10" BackgroundColor="#252526">
+                <StackLayout>
+
+                    <Label Text="Login"
+                           HorizontalTextAlignment="Center"
+                           FontSize="30"
+                           TextColor="White"/>
+
+                    <Entry Placeholder="Email"
+                           TextColor="White"
+                           PlaceholderColor="White"
+                           Text="{Binding Email}"/>
+
+                    <Entry Placeholder="Senha"
+                           TextColor="White"
+                           PlaceholderColor="White"
+                           Text="{Binding Senha}"
+                           IsPassword="{Binding IsPassword}"/>
+
+                    <!--Criado StackLayout horizontral para organizar os componentes
+                    o componente CheckBox possui somente a caixa de marcação não sendo possivel exibir um texto
+                    para isso é utilizado o stacklayout para adicionar uma label ao lado da caixa, 
+                    dando a aparencia de um chackbox comum-->
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox IsChecked="{Binding IsShowPassword}" 
+                                  Color="#007ACC"/>
+                        <Label Text="Mostrar senha" 
+                               HorizontalTextAlignment="Start" 
+                               VerticalTextAlignment="Center"
+                               TextColor="White">
+                            <!--GestureRecognizers responsavel por reconhecer toques ou clique na telas, 
+                            em componentes que não sejam do tipo button-->
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding MostrarSenhaCommand}"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+
+                    <Button Text="Entrar"
+                            TextColor="White"
+                            CornerRadius="10"
+                            FontSize="20"
+                            BackgroundColor="#007ACC"
+                            Command="{Binding EntrarCommand}"/>
+
+                    <Label HorizontalOptions="Center" TextColor="White">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <!--Span é utilizado para exibir um bloco de informações 
+                                e possibilitar a personalização de parte do texto-->
+                                <Span Text="Não possui uma conta? "/>
+                                <Span Text="Registre-se "
+                                      FontAttributes="Bold"
+                                      TextDecorations="Underline"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding RegistrarCommand}"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

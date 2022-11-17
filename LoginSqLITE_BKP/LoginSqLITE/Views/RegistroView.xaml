@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginSqLITE.Views.RegistroView"
+             BackgroundColor="#2D2D30"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout Padding="20" VerticalOptions="Center">
+        <!--Segue comentarios na LoginView-->
+            <Frame CornerRadius="10" BackgroundColor="#252526">
+                <StackLayout>
+
+                    <Label Text="Registre-se"
+                           HorizontalTextAlignment="Center"
+                           FontSize="30"
+                           TextColor="White"/>
+                    
+                    <Entry Placeholder="Nome"
+                           TextColor="White"
+                           PlaceholderColor="White"
+                           Text="{Binding Nome}"/>
+                    
+                    <Entry Placeholder="Email"
+                           TextColor="White"
+                           PlaceholderColor="White"
+                           Text="{Binding Email}"/>
+
+                    <Entry Placeholder="Senha"
+                           TextColor="White"
+                           PlaceholderColor="White"
+                           Text="{Binding Senha}"
+                           IsPassword="{Binding IsPassword}"/>
+
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox IsChecked="{Binding IsShowPassword}" 
+                                  Color="#007ACC"/>
+                        <Label Text="Mostrar senha" 
+                               HorizontalTextAlignment="Start" 
+                               VerticalTextAlignment="Center"
+                               TextColor="White">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding MostrarSenhaCommand}"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+
+                    <Button Text="Registrar"
+                            TextColor="White"
+                            CornerRadius="10"
+                            FontSize="20"
+                            BackgroundColor="#007ACC"
+                            Command="{Binding InserirCommand}"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
